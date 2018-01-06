@@ -24,6 +24,10 @@
         <!--<module>chapter11</module>-->
         <!--<module>chapter12</module>-->
         <!--<module>chapter13</module>-->
+        <module>algorithm-sort</module>
+        <module>algorithm-search</module>
+        <module>algorithm-concurrent</module>
+        <module>algorithm-lambda</module>
     </modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

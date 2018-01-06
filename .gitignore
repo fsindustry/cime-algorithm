@@ -1,3 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 /.idea/
 /cime-algorithm.iml
+/algorithm-lambda/algorithm-lambda.iml
+/algorithm-concurrent/algorithm-concurrent.iml
+/algorithm-search/algorithm-search.iml
+/algorithm-sort/algorithm-sort.iml
