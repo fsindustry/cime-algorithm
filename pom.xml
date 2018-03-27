@@ -15,8 +15,9 @@
         <module>algorithm-search</module>
         <module>algorithm-concurrent</module>
         <module>algorithm-lambda</module>
-        <module>algorithm-practise</module>
+        <module>algorithm-others</module>
         <module>algorithm-common</module>
+        <module>algorithm-ds</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

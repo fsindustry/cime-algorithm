@@ -1,4 +1,4 @@
-package com.fsindustry.algorithm.search;
+package com.fsindustry.algorithm.search.binarysearch;
 
 import java.util.Arrays;
 

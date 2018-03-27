@@ -1,4 +1,4 @@
-package com.fsindustry.algorithm.sort;
+package com.fsindustry.cime.algorithm.others;
 
 /**
  * 回文

@@ -1,4 +1,4 @@
-package com.fsindustry.cime.algorithm.practise.c1;
+package com.fsindustry.cime.algorithm.others;
 
 public class Number {
 
