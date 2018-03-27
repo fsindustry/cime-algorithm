@@ -1,4 +1,4 @@
-package com.fsindustry.algorithm.concurrent;
+package com.fsindustry.algorithm.waitnotify;
 
 /**
  * 考题：使用3个线程，分别依次输出A->B->C，循环往复10次
@@ -25,8 +25,8 @@ public class WaitNotify implements Runnable {
     public void run() {
 
         while (count > 0) {
-            synchronized(prev) {
-                synchronized(curr) {
+            synchronized (prev) {
+                synchronized (curr) {
                     System.out.println(txt + count);
                     count--;
                     curr.notify();
@@ -49,15 +49,15 @@ public class WaitNotify implements Runnable {
         Object b = new Object();
         Object c = new Object();
 
-        WaitNotify A = new WaitNotify(c, a, "A", 10);
-        WaitNotify B = new WaitNotify(a, b, "B", 10);
-        WaitNotify C = new WaitNotify(b, c, "C", 10);
+        WaitNotify notifyA = new WaitNotify(c, a, "A", 10);
+        WaitNotify notifyB = new WaitNotify(a, b, "B", 10);
+        WaitNotify notifyC = new WaitNotify(b, c, "C", 10);
 
-        new Thread(A).start();
+        new Thread(notifyA).start();
         Thread.sleep(100);
-        new Thread(B).start();
+        new Thread(notifyB).start();
         Thread.sleep(100);
-        new Thread(C).start();
+        new Thread(notifyC).start();
     }
 
 }

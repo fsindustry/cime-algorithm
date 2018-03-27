@@ -1,4 +1,4 @@
-package com.fsindustry.algorithm.concurrent;
+package com.fsindustry.algorithm.waitnotify;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
