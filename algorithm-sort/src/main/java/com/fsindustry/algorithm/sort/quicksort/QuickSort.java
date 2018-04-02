@@ -1,4 +1,4 @@
-package com.fsindustry.algorithm.sort;
+package com.fsindustry.algorithm.sort.quicksort;
 
 import java.util.Arrays;
 
