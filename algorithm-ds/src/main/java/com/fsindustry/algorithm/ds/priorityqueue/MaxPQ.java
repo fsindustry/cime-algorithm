@@ -37,7 +37,6 @@ public class MaxPQ<Key extends Comparable<Key>> implements Iterable<Key> {
             exch(k / 2, k);
             k = k / 2;
         }
-
     }
 
     /**
